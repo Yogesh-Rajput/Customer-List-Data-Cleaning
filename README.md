@@ -19,7 +19,7 @@ This project demonstrates a simple yet practical example of data cleaning using 
 * pandas 📊
 * Jupyter Notebook
 
-🚀 How to Run
+## 🚀 How to Run
 * Clone this repository.
 * Open Customer_List_Data_Cleaning.ipynb in Jupyter Notebook.
 * Make sure Customer Call List.xlsx is in the same folder.
