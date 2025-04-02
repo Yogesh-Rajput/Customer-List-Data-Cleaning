@@ -5,6 +5,7 @@ This project demonstrates a simple yet practical example of data cleaning using 
 * Customer Call List.xlsx – Raw dataset with customer names, phone numbers, addresses, etc.
 * Customer_List_Data_Cleaning.ipynb – Jupyter Notebook containing step-by-step data cleaning operations.
 
+### Before Cleaning
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -269,6 +270,211 @@ This project demonstrates a simple yet practical example of data cleaning using 
 </table>
 </div>
 
+### After Cleaning
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CustomerID</th>
+      <th>First_Name</th>
+      <th>Last_Name</th>
+      <th>Phone_Number</th>
+      <th>Address</th>
+      <th>Paying Customer</th>
+      <th>Do_Not_Contact</th>
+      <th>Street_Address</th>
+      <th>State</th>
+      <th>Zip_Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1001</td>
+      <td>Frodo</td>
+      <td>Baggins</td>
+      <td>123-545-5421</td>
+      <td>123 Shire Lane, Shire</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>123 Shire Lane</td>
+      <td>Shire</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1003</td>
+      <td>Walter</td>
+      <td>White</td>
+      <td>706-695-0392</td>
+      <td>298 Drugs Driveway</td>
+      <td>No</td>
+      <td></td>
+      <td>298 Drugs Driveway</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1005</td>
+      <td>Jon</td>
+      <td>Snow</td>
+      <td>876-678-3469</td>
+      <td>123 Dragons Road</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>123 Dragons Road</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1008</td>
+      <td>Sherlock</td>
+      <td>Holmes</td>
+      <td>876-678-3469</td>
+      <td>98 Clue Drive</td>
+      <td>No</td>
+      <td>No</td>
+      <td>98 Clue Drive</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1010</td>
+      <td>Peter</td>
+      <td>Parker</td>
+      <td>123-545-5421</td>
+      <td>25th Main Street, New York</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>25th Main Street</td>
+      <td>New York</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1012</td>
+      <td>Harry</td>
+      <td>Potter</td>
+      <td>706-695-0392</td>
+      <td>2394 Hogwarts Avenue</td>
+      <td>Yes</td>
+      <td></td>
+      <td>2394 Hogwarts Avenue</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>1013</td>
+      <td>Don</td>
+      <td>Draper</td>
+      <td>123-543-2345</td>
+      <td>2039 Main Street</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>2039 Main Street</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1014</td>
+      <td>Leslie</td>
+      <td>Knope</td>
+      <td>876-678-3469</td>
+      <td>343 City Parkway</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>343 City Parkway</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1015</td>
+      <td>Toby</td>
+      <td>Flenderson</td>
+      <td>304-762-2467</td>
+      <td>214 HR Avenue</td>
+      <td>No</td>
+      <td>No</td>
+      <td>214 HR Avenue</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1016</td>
+      <td>Ron</td>
+      <td>Weasley</td>
+      <td>123-545-5421</td>
+      <td>2395 Hogwarts Avenue</td>
+      <td>No</td>
+      <td>No</td>
+      <td>2395 Hogwarts Avenue</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1017</td>
+      <td>Michael</td>
+      <td>Scott</td>
+      <td>123-643-9775</td>
+      <td>121 Paper Avenue, Pennsylvania</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>121 Paper Avenue</td>
+      <td>Pennsylvania</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>1018</td>
+      <td>Clark</td>
+      <td>Kent</td>
+      <td>706-695-0392</td>
+      <td>3498 Super Lane</td>
+      <td>Yes</td>
+      <td></td>
+      <td>3498 Super Lane</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>1020</td>
+      <td>Anakin</td>
+      <td>Skywalker</td>
+      <td>876-678-3469</td>
+      <td>910 Tatooine Road, Tatooine</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>910 Tatooine Road</td>
+      <td>Tatooine</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ## 🛠️ Tasks Performed
 * Removed duplicate entries.
