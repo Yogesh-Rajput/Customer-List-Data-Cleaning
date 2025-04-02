@@ -260,7 +260,7 @@ Some messy data...
 </div>
 
 ## ✅ After Cleaning
-Much cleaner and standardized!
+More clean and standardized!
 <div>
 
 <table border="1" class="dataframe">
