@@ -6,7 +6,7 @@ This project demonstrates a simple yet practical example of data cleaning using 
 * Customer_List_Data_Cleaning.ipynb – Jupyter Notebook containing step-by-step data cleaning operations.
 
 ## 🧾 Before Cleaning
-Some messy data...
+A messy dataset...
 <div>
 
 <table border="1" class="dataframe">
