@@ -5,7 +5,8 @@ This project demonstrates a simple yet practical example of data cleaning using 
 * Customer Call List.xlsx – Raw dataset with customer names, phone numbers, addresses, etc.
 * Customer_List_Data_Cleaning.ipynb – Jupyter Notebook containing step-by-step data cleaning operations.
 
-### Before Cleaning
+### 🧾 Before Cleaning
+Some messy data...
 <div>
 
 <table border="1" class="dataframe">
@@ -258,22 +259,10 @@ This project demonstrates a simple yet practical example of data cleaning using 
 </table>
 </div>
 
-### After Cleaning
-
+### ✅ After Cleaning
+Much cleaner and standardized!
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
