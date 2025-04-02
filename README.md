@@ -18,7 +18,6 @@ This project demonstrates a simple yet practical example of data cleaning using 
 * Python 🐍
 * pandas 📊
 * Jupyter Notebook
-* Data cleaning and preprocessing
 
 🚀 How to Run
 * Clone this repository.
